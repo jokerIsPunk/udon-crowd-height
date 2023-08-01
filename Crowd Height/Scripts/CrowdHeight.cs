@@ -54,13 +54,13 @@ namespace jokerispunk.CrowdHeight
             CheckHeightLimit();
         }
 
-        public void OnAvatarChanged(VRCPlayerApi player)
+        public override void OnAvatarChanged(VRCPlayerApi player)
         {
             if (player.isLocal)
                 CheckHeightLimit();
         }
 
-        public void OnAvatarEyeHeightChanged(VRCPlayerApi player, float newEyeHeightAsMeters)
+        public override void OnAvatarEyeHeightChanged(VRCPlayerApi player, float newEyeHeightAsMeters)
         {
             if (player.isLocal)
                 CheckHeightLimit();
