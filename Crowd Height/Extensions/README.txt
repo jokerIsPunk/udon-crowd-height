@@ -1,0 +1,1 @@
+You can define custom conditions to allow or disallow scaling. Create a U# script and inherit from jokerispunk.CrowdHeight.RequireCondition, then include that script in the "Required Conditions" array (or in some other script). See ExtensionExample script for an example.
