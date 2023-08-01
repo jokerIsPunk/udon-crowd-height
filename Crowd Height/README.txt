@@ -12,6 +12,7 @@ DETAILS
 - scaling limits apply only to players inside the limit zone
     + "inside" means the player's head is inside the zone
     + zones can be rotated to any orientation
+    + the red box is marked EditorOnly and will disappear, you can also delete it
 - if you want the limits to apply everywhere, just delete the limit zone and set the Hard Limit values in the inspector
 - for different configurations of zones, see the Zones folder
 - for extending the logic of when scaling limits apply, see the Extensions folder
